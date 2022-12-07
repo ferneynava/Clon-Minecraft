@@ -1,9 +1,12 @@
+import { Canvas } from '@react-three/fiber'
+import { Sky } from '@react-three/drei'
 
-import './App.css'
-
-function App() {
+function App () {
   return (
-    <h1>Minecraft</h1>
+    <Canvas>
+      <Sky sunPosition={[100, 100, 20]} />
+      <ambientLight intensity={0.5} />
+    </Canvas>
   )
 }
 
