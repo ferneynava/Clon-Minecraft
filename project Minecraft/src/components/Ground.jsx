@@ -1,4 +1,5 @@
 import { usePlane } from '@react-three/cannon'
+import { groundTexture } from '../images/textures.js'
 
 export function Ground () {
   const [ref] = usePlane(() => ({
@@ -9,7 +10,7 @@ export function Ground () {
   return (
     <mesh ref={ref}>
       <planeGeometry attach='geometry' args={[100, 100]} />
-      <meshStandardMaterial attach='material' color='green' />
+      <meshStandardMaterial attach='material' map={groundTexture} />
     </mesh>
   )
 }
