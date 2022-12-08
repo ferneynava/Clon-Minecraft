@@ -2,8 +2,8 @@ import { usePlane } from '@react-three/cannon'
 
 export function Ground () {
   const [ref] = usePlane(() => ({
-    rotation: [0, 0, 0],
-    position: [0, 0, 0]
+    rotation: [-Math.PI / 2, 0, 0], // x, y, z
+    position: [0, -0.5, 0] // x, y, z
   }))
 
   return (
