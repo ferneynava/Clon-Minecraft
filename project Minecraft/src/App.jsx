@@ -13,7 +13,6 @@ function App () {
       <Physics>
         <Ground />
       </Physics>
-
     </Canvas>
   )
 }
