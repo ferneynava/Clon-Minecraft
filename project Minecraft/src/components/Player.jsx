@@ -4,8 +4,8 @@ import { useEffect, useRef } from 'react'
 import { Vector3 } from 'three'
 import { useKeyboard } from '../hooks/useKeyboard.js'
 
-const CHARACTER_SPEED = 5
-const CHARACTER_JUMP_FORCE = 10
+const CHARACTER_SPEED = 4
+const CHARACTER_JUMP_FORCE = 4
 
 export const Player = () => {
   const {
@@ -72,6 +72,14 @@ export const Player = () => {
       vel.current[1],
       direction.z
     )
+
+    if (jump && Math.abs(vel.current[1]) < 0.05) {
+      api.velocity.set(
+        vel.current[0],
+        CHARACTER_JUMP_FORCE,
+        vel.current[2]
+      )
+    }
   })
 
   return (
