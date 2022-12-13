@@ -66,7 +66,7 @@ Clon de Minecraft v1.0.Basado en el video de [midudev](https://clon-minecraft.ne
 
 * ![HTML]
 * ![CSS]
-* ![React]
+* ![React.js]
 * ![Vite]
 * ![Threejs]
 
