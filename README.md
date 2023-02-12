@@ -124,7 +124,7 @@ Distribuido bajo la licencia MIT. Consulte `LICENSE.txt` para obtener más infor
 
 Ferney Alexander Nava Trujillo - ferneynava@gmail.com
 
-Project Link: [https://github.com/ferneynava/CSS-effect-for-buttons](https://github.com/ferneynava/CSS-effect-for-buttons)
+Project Link: [https://clon-minecraft.netlify.app/](https://clon-minecraft.netlify.app/)
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
